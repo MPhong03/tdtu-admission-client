@@ -5,7 +5,7 @@ import { SidebarProvider } from "./contexts/SidebarContext";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tdtu-admission-client">
       <Toaster position="top-center" />
       <SidebarProvider>
         <AppRoutes />
